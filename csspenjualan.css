@@ -1,0 +1,97 @@
+/* CSS untuk bagian barang dan jumlah */
+.barang-select,
+.jumlah-input {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+}
+
+/* CSS untuk tombol "Tambah Barang" */
+#tambahBarangButton {
+  margin-bottom: 10px;
+}
+
+/* CSS untuk total harga, pembayaran, kembalian, dan tombol "Buat Transaksi" */
+#total, #pembayaran, #kembalian {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* CSS untuk button print bukti pembayaran */
+#printButton {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* CSS untuk container transaksi */
+.container {
+  text-align: center;
+}
+
+/* CSS untuk form transaksi */
+form#formTransaksi {
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form#formTransaksi label {
+  margin-bottom: 10px;
+}
+
+/* CSS untuk tabel data transaksi */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* CSS untuk judul halaman */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* CSS untuk mengatur posisi tombol "Buat Transaksi" dan "Print Bukti Pembayaran" */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* CSS untuk header konten halaman */
+.content header {
+  margin-top: 70px; /* Sesuaikan dengan tinggi header */
+}

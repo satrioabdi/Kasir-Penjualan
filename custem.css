@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px 0;
+}
+.search-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.search-form input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+}
+.search-form button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-form button:hover {
+    background-color: #45a049;
+}
+.kategori-list {
+    margin: 0 auto;
+    width: 800px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.kategori-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.kategori-list table th,
+.kategori-list table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.kategori-list table th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+.kategori-list table tr:hover {
+    background-color: #f2f2f2;
+}
+.home-button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.add-button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kategori-list table td a {
+    margin-right: 15px;
+}
